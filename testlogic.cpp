@@ -32,6 +32,6 @@ void TestLogic::TestDivisor2() {
     QVERIFY(static_cast<int>(logic.division(20, 5)) != 3);
 }
 
-QTEST_MAIN(TestLogic)
+QTEST_GUILESS_MAIN(TestLogic)
 #include "testlogic.moc"
 
