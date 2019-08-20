@@ -35,7 +35,7 @@ void TestLogic::TestDivisor2() {
 
 void TestLogic::TestDivisor3() {
     Logic logic;
-    QVERIFY(static_cast<int>(logic.division(20, 5)) != 1);
+    QVERIFY(static_cast<int>(logic.division(20, 5)) == 1);
 }
 
 QTEST_GUILESS_MAIN(TestLogic)
